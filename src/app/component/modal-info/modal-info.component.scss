@@ -1,0 +1,14 @@
+ion-toolbar{
+  --background: #ffffff;
+  color: #000000;
+  ion-icon{
+    font-size: 40px;
+    padding: 16px;
+  }
+}
+ion-content{
+  p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}

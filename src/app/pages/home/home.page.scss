@@ -1,0 +1,28 @@
+#container {
+  background-image: url('../../../assets/nasa.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+
+#container h1 {
+  color: #2e2e2e;
+  margin-bottom: 40px;
+  font-size: 35px;
+}
+
+#container div:last-child {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#container a {
+  text-decoration: none;
+}

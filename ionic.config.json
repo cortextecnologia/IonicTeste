@@ -1,0 +1,7 @@
+{
+  "name": "app-nasaa",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
