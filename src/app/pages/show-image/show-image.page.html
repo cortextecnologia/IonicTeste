@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Foto do dia</ion-title>
+    <ion-buttons slot="end" (click)="abrirModal()">
+      <ion-icon name="information-circle-outline"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+  <div *ngIf="infos">
+    <h2 class="ion-text-center">{{infos.title}}</h2>
+    <img [src]="infos.url" [alt]="">
+    <p class="ion-text-center">{{infos.copyright}}, {{infos.date | date: 'dd/MM/yyyy'}}</p>
+  </div>
+
+</ion-content>
+<ion-footer class="ion-no-border ion-padding">
+  <ion-button expand="block" (click)="salvarImagem()">Salvar imagem</ion-button>
+</ion-footer>
